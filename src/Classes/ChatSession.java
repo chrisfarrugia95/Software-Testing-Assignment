@@ -1,9 +1,10 @@
-import org.mockito.verification.Timeout;
+package Classes;
+
+import Classes.ChatMessage;
+import Classes.ChatProvider;
 
 import javax.security.auth.login.LoginException;
 import java.util.*;
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
 import java.util.concurrent.TimeoutException;
 
 public class ChatSession {

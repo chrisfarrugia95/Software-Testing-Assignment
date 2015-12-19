@@ -1,7 +1,6 @@
-
-
+import Classes.ChatProvider
+import Classes.ChatSession
 import org.junit.*
-import org.mockito.Mock
 import org.mockito.Mockito
 
 import javax.security.auth.login.LoginException

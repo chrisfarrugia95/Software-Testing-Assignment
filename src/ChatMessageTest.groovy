@@ -1,5 +1,4 @@
-
-
+import Classes.ChatMessage
 import org.junit.*
 
 class ChatMessageTest{

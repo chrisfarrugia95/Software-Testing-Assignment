@@ -1,3 +1,5 @@
+package Classes;
+
 import java.util.concurrent.TimeoutException;
 
 public interface ChatProvider {
