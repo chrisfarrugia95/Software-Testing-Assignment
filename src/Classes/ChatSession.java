@@ -26,30 +26,29 @@ public class ChatSession {
 
 
 
-    public int initSession(String username, String password, String fID){
+    public int initSession(String username, String password,String fID){
 
         int login;
         setFriendID(fID);
+
         try {//Check if constructor of Chat Provider throws exception
-            login = p.chatProvider(username, password);
+            p.chatProvider(username, password);
         }catch(TimeoutException t){
 
             return 2;
-        }
 
-        if(login == 0){
-
-            return 0;
-
-        } else {
+        }catch(LoginException t){//Invalid Login
 
             return 1;
         }
+
+        return 0; //Success
+
     }
 
 
 
-    public int sendMessage(String text) throws Exception {
+    public int sendMessage(String text) throws Exception, LoginException {
 
         int check;
 
@@ -58,7 +57,8 @@ public class ChatSession {
             return 3;
         }
 
-        else if((getLock()) && (text.contains("Fudge") ||text.contains("Yikes") || text.contains("Pudding"))){ //Lock
+        else if((getLock()) && (text.contains("Fudge") ||text.contains("Yikes") || text.contains("Pudding")
+            || text.contains("fudge") || text.contains("yikes") || text.contains("pudding"))){ //Check Lock
 
             return 4;
         }
@@ -75,12 +75,10 @@ public class ChatSession {
 
             return 1;
 
-        }catch (LoginException l){ //Invalid FriendID
+        }catch (LoginException l){//Invalid ID
 
             return 5;
         }
-
-
 
         if (check == 0){//Success
 
@@ -95,23 +93,25 @@ public class ChatSession {
 
     public void onMessageReceived(String text){
        addMessage(text);
-    }
-
-
-
+    } //Add message to text
 
 
 
     public boolean getLock(){
-
         return parentalLock;
     }
 
+    public void setLock(boolean b){
 
-    public List<ChatMessage> getMessages(){
+        if(b){
+            parentalLock = true;
+        }
+        else parentalLock =false;
 
-        return receivedMessages;
+
     }
+
+
 
     public void addMessage(String text){
 
@@ -120,7 +120,7 @@ public class ChatSession {
         receivedMessages.add(n);
     }
 
-    public void setFriendID(String ID){
+    private void setFriendID(String ID){
         friendID = ID;
     }
 }

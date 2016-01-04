@@ -1,5 +1,7 @@
 package Classes;
 
+import javax.security.auth.login.LoginException;
+import java.util.ArrayList;
 import java.util.concurrent.TimeoutException;
 
 public interface ChatProvider {
@@ -12,8 +14,8 @@ public interface ChatProvider {
 
     public int getMaxMessageLength();
 
-    public void onMessageReceived(String message);
+    public int onMessageReceived(String message) throws InterruptedException;
 
-    public int chatProvider(String username, String password) throws TimeoutException;
+    public int chatProvider(String username, String password) throws TimeoutException, LoginException;
 
 }
