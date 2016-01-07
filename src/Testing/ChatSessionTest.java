@@ -1,8 +1,7 @@
-package Testing;
+package testing;
 
-import Classes.ChatProvider;
-import Classes.ChatSession;
-import junit.framework.TestCase;
+import chat.ChatProvider;
+import chat.ChatSession;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;

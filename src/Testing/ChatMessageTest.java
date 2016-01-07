@@ -1,6 +1,6 @@
-package Testing;
+package testing;
 
-import Classes.ChatMessage;
+import chat.ChatMessage;
 import junit.framework.TestCase;
 import org.junit.After;
 import org.junit.Assert;

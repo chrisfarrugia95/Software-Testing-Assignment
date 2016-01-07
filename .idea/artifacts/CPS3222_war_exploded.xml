@@ -7,6 +7,33 @@
         <element id="directory" name="classes">
           <element id="module-output" name="CPS3222" />
         </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/Additional/junit-4.11.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/mockito-all-1.9.5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/cucumber-java-1.1.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/htmlunit-2.10.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/htmlunit-2.19-OSGi.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/Additional/cucumber-core-1.1.5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/Additional/cucumber-junit-1.1.5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/Additional/cucumber-jvm-deps-1.0.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/Additional/gherkin-2.12.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/Additional/hamcrest-core-1.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/Additional/jchronic-0.2.6.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../Jars/junit-4.11.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../Jars/htmlunit-2.10.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../Jars/javax.servlet.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../Jars/gherkin-2.12.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../Jars/jchronic-0.2.6.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../Jars/hamcrest-core-1.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../Jars/javax.servlet-3.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../Jars/mockito-all-1.9.5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../Jars/htmlunit-2.19-OSGi.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../Jars/cucumber-core-1.1.5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../Jars/cucumber-html-0.2.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../Jars/cucumber-java-1.1.5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../Jars/cucumber-junit-1.1.5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../Jars/cucumber-jvm-deps-1.0.3.jar" />
+        </element>
       </element>
     </root>
   </artifact>
