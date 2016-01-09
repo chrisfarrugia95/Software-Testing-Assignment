@@ -16,9 +16,9 @@ import java.util.List;
 
 public class LogIn {
 
-    HtmlPage page;
+    private HtmlPage page;
 
-    //1,2
+    //Scenarios 1,2
     @cucumber.api.java.en.Given("^I am a user trying to log in$")
     public void I_am_a_user_trying_to_log_in() throws Throwable {
 
@@ -27,7 +27,7 @@ public class LogIn {
     }
 
 
-    //1
+    //Scenario 1
     @When("^I login using valid credentials$")
     public void I_login_using_valid_credentials() throws Throwable {
 
@@ -46,7 +46,7 @@ public class LogIn {
 
     }
 
-    //1
+    //Scenario 1
     @Then("^I should be taken to the chat page$")
     public void I_should_be_taken_to_the_chat_page() throws Throwable {
 
@@ -55,7 +55,7 @@ public class LogIn {
 
 
 
-    //2
+    //Scenario 2
     @When("^I login using invalid credentials$")
     public void iLoginUsingInvalidCredentials() throws Throwable {
 
@@ -73,14 +73,14 @@ public class LogIn {
         page = submit.click();
     }
 
-    //2
+    //Scenario 2
     @Then("^I should see an error message$")
     public void iShouldSeeAnErrorMessage() throws Throwable {
 
         Assert.assertTrue(page.getWebResponse().getContentAsString().contains("Invalid Username or Password"));
     }
 
-    //2
+    //Scenario 2
     @And("^I should remain on the login page$")
     public void iShouldRemainOnTheLoginPage() throws Throwable {
         Assert.assertTrue(page.getWebResponse().getContentAsString().contains("Kellimnifejtrid Login Page"));

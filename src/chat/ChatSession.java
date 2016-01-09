@@ -54,8 +54,7 @@ public class ChatSession {
             return 3;
         }
 
-        else if((getLock()) && (text.contains("Fudge") ||text.contains("Yikes") || text.contains("Pudding")
-            || text.contains("fudge") || text.contains("yikes") || text.contains("pudding"))){ //Check Lock
+        else if((getLock()) && (text.contains("Fudge") ||text.contains("Yikes") || text.contains("Pudding"))){ //Check Lock
 
             return 4;
         }

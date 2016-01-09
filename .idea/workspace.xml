@@ -19,8 +19,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CPS3222/Classes/ChatSession.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CPS3222/LogIn.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CPS3222/LoginServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CPS3222/Testing/ChatMessageTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CPS3222/Testing/ChatSessionTest.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CPS3222/Testing/TestDoubleChatProvider.class" afterPath="" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/src/BDD.feature" afterPath="$PROJECT_DIR$/src/features/webapp.feature" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/src/Classes/ChatMessage.java" afterPath="$PROJECT_DIR$/src/chat/ChatMessage.java" />
@@ -29,6 +27,10 @@
       <change type="MOVED" beforePath="$PROJECT_DIR$/src/LogIn.java" afterPath="$PROJECT_DIR$/src/step_definitions/LogIn.java" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/src/LoginServlet.java" afterPath="$PROJECT_DIR$/src/web_App/LoginServlet.java" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/src/Testing/TestDoubleChatProvider.java" afterPath="$PROJECT_DIR$/src/web_App/ChatProviderServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/CPS3222_war_exploded/WEB-INF/classes/Testing/ChatMessageTest.class" afterPath="$PROJECT_DIR$/out/artifacts/CPS3222_war_exploded/WEB-INF/classes/Testing/ChatMessageTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/CPS3222_war_exploded/WEB-INF/classes/Testing/ChatSessionTest.class" afterPath="$PROJECT_DIR$/out/artifacts/CPS3222_war_exploded/WEB-INF/classes/Testing/ChatSessionTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CPS3222/Testing/ChatMessageTest.class" afterPath="$PROJECT_DIR$/out/production/CPS3222/Testing/ChatMessageTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CPS3222/Testing/ChatSessionTest.class" afterPath="$PROJECT_DIR$/out/production/CPS3222/Testing/ChatSessionTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/CPS3222_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/CPS3222_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CPS3222.iml" afterPath="$PROJECT_DIR$/CPS3222.iml" />
@@ -73,16 +75,14 @@
     <favorites_list name="CPS3222" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="LogIn.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/step_definitions/LogIn.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="82" column="7" selection-start-line="82" selection-start-column="7" selection-end-line="82" selection-end-column="7" />
+              <caret line="86" column="5" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#956#966#0" expanded="true" />
-                <element signature="e#1782#1792#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -92,7 +92,7 @@
         <entry file="file://$PROJECT_DIR$/src/web_App/LoginServlet.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="157" column="29" selection-start-line="157" selection-start-column="29" selection-end-line="157" selection-end-column="29" />
+              <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -100,13 +100,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RunBDD.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/testing/RunBDD.java">
+      <file leaf-file-name="ChatSession.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/chat/ChatSession.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.24086604">
+              <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SendingMess.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/step_definitions/SendingMess.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <caret line="97" column="0" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1463#1473#0" expanded="true" />
+                <element signature="e#2363#2373#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -116,17 +128,7 @@
         <entry file="file://$PROJECT_DIR$/src/features/webapp.feature">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SendingMess.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/step_definitions/SendingMess.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.48870638">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -168,10 +170,12 @@
         <option value="$PROJECT_DIR$/src/Testing/TestDoubleChatProvider.java" />
         <option value="$PROJECT_DIR$/src/LoginServlet.java" />
         <option value="$PROJECT_DIR$/src/testing/RunBDD.java" />
+        <option value="$PROJECT_DIR$/src/step_definitions/test.java" />
+        <option value="$PROJECT_DIR$/src/features/webapp.feature" />
         <option value="$PROJECT_DIR$/src/web_App/LoginServlet.java" />
         <option value="$PROJECT_DIR$/src/step_definitions/LogIn.java" />
-        <option value="$PROJECT_DIR$/src/features/webapp.feature" />
         <option value="$PROJECT_DIR$/src/step_definitions/SendingMess.java" />
+        <option value="$PROJECT_DIR$/src/chat/ChatSession.java" />
       </list>
     </option>
   </component>
@@ -220,7 +224,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -331,8 +337,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -344,7 +348,7 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Jars" />
@@ -358,7 +362,7 @@
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
@@ -374,7 +378,7 @@
       <recent name="C:\Users\JeanTwan\Dropbox\Universita\Third Year\Software Testing\Assignment\Software-Testing-Assignment\src\features" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber java.Feature: webapp">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 7.0.56">
     <configuration default="false" name="Feature: BDD" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1034,47 +1038,52 @@
       <workItem from="1451915777370" duration="966000" />
       <workItem from="1451919077975" duration="134000" />
       <workItem from="1452074377270" duration="14783000" />
+      <workItem from="1452095686916" duration="610000" />
+      <workItem from="1452188525946" duration="238000" />
+      <workItem from="1452252640242" duration="1970000" />
+      <workItem from="1452282589700" duration="104000" />
+      <workItem from="1452331758024" duration="7950000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Feature__webapp - 2016.01.06 at 16h 01m 24s.xml">
+    <history-entry file="Feature__webapp - 2016.01.09 at 11h 38m 27s.xml">
       <configuration name="Feature: webapp" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="RunBDD - 2016.01.06 at 14h 32m 44s.xml">
-      <configuration name="RunBDD" configurationId="JUnit" />
+    <history-entry file="Feature__webapp - 2016.01.09 at 12h 18m 44s.xml">
+      <configuration name="Feature: webapp" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="RunBDD - 2016.01.06 at 14h 34m 08s.xml">
-      <configuration name="RunBDD" configurationId="JUnit" />
+    <history-entry file="Feature__webapp - 2016.01.09 at 12h 19m 29s.xml">
+      <configuration name="Feature: webapp" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="RunBDD - 2016.01.06 at 14h 34m 28s.xml">
-      <configuration name="RunBDD" configurationId="JUnit" />
+    <history-entry file="Feature__webapp - 2016.01.09 at 12h 22m 26s.xml">
+      <configuration name="Feature: webapp" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="RunBDD - 2016.01.06 at 14h 42m 57s.xml">
-      <configuration name="RunBDD" configurationId="JUnit" />
+    <history-entry file="Feature__webapp - 2016.01.09 at 12h 27m 54s.xml">
+      <configuration name="Feature: webapp" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="RunBDD - 2016.01.06 at 14h 45m 50s.xml">
-      <configuration name="RunBDD" configurationId="JUnit" />
+    <history-entry file="Feature__webapp - 2016.01.09 at 12h 28m 42s.xml">
+      <configuration name="Feature: webapp" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="RunBDD - 2016.01.06 at 15h 01m 38s.xml">
-      <configuration name="RunBDD" configurationId="JUnit" />
+    <history-entry file="Feature__webapp - 2016.01.09 at 12h 31m 01s.xml">
+      <configuration name="Feature: webapp" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="RunBDD - 2016.01.06 at 15h 03m 29s.xml">
-      <configuration name="RunBDD" configurationId="JUnit" />
+    <history-entry file="Feature__webapp - 2016.01.09 at 12h 31m 10s.xml">
+      <configuration name="Feature: webapp" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="RunBDD - 2016.01.06 at 15h 06m 11s.xml">
-      <configuration name="RunBDD" configurationId="JUnit" />
+    <history-entry file="Feature__webapp - 2016.01.09 at 12h 31m 50s.xml">
+      <configuration name="Feature: webapp" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="RunBDD - 2016.01.06 at 15h 13m 01s.xml">
-      <configuration name="RunBDD" configurationId="JUnit" />
+    <history-entry file="Feature__webapp - 2016.01.09 at 12h 32m 55s.xml">
+      <configuration name="Feature: webapp" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66297000" />
+    <option name="totallyTimeSpent" value="77169000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1121,7 +1130,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="35" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/step_definitions/SendingMess.java</url>
+          <line>94</line>
+          <properties />
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="48" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1134,7 +1151,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1144,12 +1163,12 @@
           <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#1820#1821#0" expanded="false" />
-            <element signature="e#1851#1852#0" expanded="false" />
-            <element signature="e#1906#1907#0" expanded="false" />
-            <element signature="e#1941#1942#0" expanded="false" />
-            <element signature="e#2289#2290#0" expanded="false" />
-            <element signature="e#2318#2319#0" expanded="false" />
+            <element signature="e#1728#1729#0" expanded="false" />
+            <element signature="e#1759#1760#0" expanded="false" />
+            <element signature="e#1814#1815#0" expanded="false" />
+            <element signature="e#1849#1850#0" expanded="false" />
+            <element signature="e#2197#2198#0" expanded="false" />
+            <element signature="e#2226#2227#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1168,8 +1187,6 @@
           <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#956#966#0" expanded="true" />
-            <element signature="e#1782#1792#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1179,7 +1196,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1195,7 +1212,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1205,12 +1224,12 @@
           <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#1820#1821#0" expanded="false" />
-            <element signature="e#1851#1852#0" expanded="false" />
-            <element signature="e#1906#1907#0" expanded="false" />
-            <element signature="e#1941#1942#0" expanded="false" />
-            <element signature="e#2289#2290#0" expanded="false" />
-            <element signature="e#2318#2319#0" expanded="false" />
+            <element signature="e#1728#1729#0" expanded="false" />
+            <element signature="e#1759#1760#0" expanded="false" />
+            <element signature="e#1814#1815#0" expanded="false" />
+            <element signature="e#1849#1850#0" expanded="false" />
+            <element signature="e#2197#2198#0" expanded="false" />
+            <element signature="e#2226#2227#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1229,8 +1248,6 @@
           <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#956#966#0" expanded="true" />
-            <element signature="e#1782#1792#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1240,7 +1257,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1256,7 +1273,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="184" column="17" selection-start-line="184" selection-start-column="17" selection-end-line="184" selection-end-column="17" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1274,8 +1293,6 @@
           <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#956#966#0" expanded="true" />
-            <element signature="e#1782#1792#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1284,7 +1301,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="184" column="17" selection-start-line="184" selection-start-column="17" selection-end-line="184" selection-end-column="17" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1302,8 +1321,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#956#966#0" expanded="true" />
-            <element signature="e#1782#1792#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1312,7 +1329,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1341,7 +1360,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="23" column="63" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="63" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1349,7 +1370,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1378,7 +1401,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1445,31 +1470,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chat/ChatSession.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.034907598">
-          <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1820#1821#0" expanded="false" />
-            <element signature="e#1851#1852#0" expanded="false" />
-            <element signature="e#1906#1907#0" expanded="false" />
-            <element signature="e#1941#1942#0" expanded="false" />
-            <element signature="e#2289#2290#0" expanded="false" />
-            <element signature="e#2318#2319#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/web_App/ChatProviderServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.034907598">
           <caret line="122" column="0" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
           <folding>
-            <element signature="e#2152#2153#0" expanded="true" />
-            <element signature="e#2202#2203#0" expanded="true" />
-            <element signature="e#2777#2778#0" expanded="true" />
-            <element signature="e#2809#2810#0" expanded="true" />
+            <element signature="e#2152#2153#0" expanded="false" />
+            <element signature="e#2202#2203#0" expanded="false" />
+            <element signature="e#2777#2778#0" expanded="false" />
+            <element signature="e#2809#2810#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1479,7 +1488,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="38" selection-end-column="72" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1492,34 +1501,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../Jars/cucumber-core-1.1.5.jar!/cucumber/runtime/Utils.class">
+    <entry file="jar://$PROJECT_DIR$/../Jars/cucumber-core-1.1.5.jar!/cucumber/runtime/Runtime.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.3333335">
-          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.33251232">
+          <caret line="345" column="0" selection-start-line="345" selection-start-column="0" selection-end-line="345" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/../Jars/cucumber-core-1.1.5.jar!/cucumber/runtime/StepDefinitionMatch.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.0">
-          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.3546798">
+          <caret line="42" column="16" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../Jars/cucumber-core-1.1.5.jar!/cucumber/runtime/Runtime.class">
+    <entry file="jar://$PROJECT_DIR$/../Jars/cucumber-core-1.1.5.jar!/cucumber/runtime/FeatureBuilder.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33251232">
-          <caret line="345" column="0" selection-start-line="345" selection-start-column="0" selection-end-line="345" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.35217392">
+          <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/testing/RunBDD.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27926078">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../Jars/cucumber-core-1.1.5.jar!/cucumber/runtime/Utils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31527093">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../Jars/cucumber-core-1.1.5.jar!/cucumber/runtime/Timeout.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4187192">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/step_definitions/SendingMess.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <caret line="97" column="0" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1463#1473#0" expanded="true" />
+            <element signature="e#2363#2373#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/webapp.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/step_definitions/LogIn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="86" column="5" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1529,37 +1581,17 @@
     <entry file="file://$PROJECT_DIR$/src/web_App/LoginServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="157" column="29" selection-start-line="157" selection-start-column="29" selection-end-line="157" selection-end-column="29" />
+          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/step_definitions/LogIn.java">
+    <entry file="file://$PROJECT_DIR$/src/chat/ChatSession.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="82" column="7" selection-start-line="82" selection-start-column="7" selection-end-line="82" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#956#966#0" expanded="true" />
-            <element signature="e#1782#1792#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/webapp.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/step_definitions/SendingMess.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48870638">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.24086604">
+          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
           <folding />
         </state>
       </provider>

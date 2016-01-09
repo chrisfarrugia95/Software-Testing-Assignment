@@ -19,7 +19,6 @@ public class LoginServlet extends HttpServlet {
         ChatProviderServlet test = new ChatProviderServlet();
         ChatSession s = new ChatSession(test);
         private int login = 1;
-        public String lastPage; //Hold last dispalyed page
 
 
 
@@ -95,7 +94,7 @@ public class LoginServlet extends HttpServlet {
         private String loginPage(){
 
 
-                lastPage = ("<html>\n" +
+                return ("<html>\n" +
                         "<head>\n" +
                         "<title>Login Page</title>\n" +
                         "<style>\n" +
@@ -111,7 +110,7 @@ public class LoginServlet extends HttpServlet {
                         "</head>\n" +
                         "\n" +
                         "<body>\n" +
-                        "\t<div class = \"center\">\n" +
+                        "\t<div id = \"content\" class = \"center\">\n" +
                         "\n" +
                         "\t<b>Kellimnifejtrid Login Page</b>\n" +
                         "\n" +
@@ -137,18 +136,18 @@ public class LoginServlet extends HttpServlet {
                         "</body>\n" +
                         "\n" +
                         "</html>");
-                return lastPage;
+
 
         }
 
         private String loginError(){
 
-                lastPage = ("<center><h2><b>Invalid Username or Password</b><h2></center>");
-                return lastPage;
+                return ("<center><h2><b>Invalid Username or Password</b></h2></center>");
+
 
         }
         protected String chatPage(){
-                lastPage = ("<html>\n" +
+                return ("<html>\n" +
                         "<head>\n" +
                         "<title>Chat Page</title>\n" +
                         "<style>\n" +
@@ -174,7 +173,7 @@ public class LoginServlet extends HttpServlet {
                         "\n" +
                         "<body>\n" +
                         "\n" +
-                        "\t<div class = \"center\">\n" +
+                        "\t<div  id = \"content\" class = \"center\">\n" +
                         "\n" +
                         "\t<center><b>Kellimnifejtrid Chat Page</b></center><br>\n" +
                         "\n" +
@@ -182,7 +181,7 @@ public class LoginServlet extends HttpServlet {
                         "\t<align = \"right\"><form method = \"POST\">\n" +
                         "<input type=\"submit\" name = \"out\"value=\"Log Out\"></form>"+
                         "\n" +
-                        "<br><div class = \"text\">\n" +
+                        "<br><div id = \"window\" class = \"text\">\n" +
                         "\t"+session.getAttribute("box")+"\n" +
                         "</div>\n" +
                         "\n" +
@@ -200,12 +199,11 @@ public class LoginServlet extends HttpServlet {
                         "</body>\n" +
                         "\n" +
                         "</html>");
-                return lastPage;
         }
 
 
         private String chatPageViolation() {
-                lastPage = ("<center><h1><b>Parental-Lock Violated</b><h1></center>");
-                return lastPage;
+                return ("<center><h1><div id = \"error\"><b>Parental-Lock Violated</b><h1></div></center>");
+
         }
 }
